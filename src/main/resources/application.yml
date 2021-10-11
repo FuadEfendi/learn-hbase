@@ -1,0 +1,21 @@
+---
+system:
+  zookeeperOptions:
+
+  hbaseoptions:
+    namespace: namespace
+
+token:
+  mapping:
+    - container: container
+      hbasetable: qualifier
+
+
+
+
+
+
+# springdoc.api-docs.path=/v3/api-docs
+# http://localhost:8080/api-docs/ - in JSON
+# http://localhost:8080/api-docs.yaml
+# http://localhost:8080/swagger-ui.html
